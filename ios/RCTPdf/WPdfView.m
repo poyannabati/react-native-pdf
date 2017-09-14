@@ -370,7 +370,7 @@
     CGRect bounds = self.superview.bounds;
     if (bounds.size.width == 0 || bounds.size.height == 0) return;
     
-    _basePageWidth = 150;
+    _basePageWidth = 60;
     _basePageHeight = self.superview.bounds.size.height;
     
     if (_fitWidth && _basePageHeight<_pdfPageRect.size.height*_basePageWidth/_pdfPageRect.size.width) {
