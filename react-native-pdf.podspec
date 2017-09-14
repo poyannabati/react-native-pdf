@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.homepage      = "https://github.com/wonday/react-native-pdf"
   s.source        = { :git => 'https://github.com/wonday/react-native-pdf.git' }
   s.platform      = :ios, '8.0'
-  s.source_files  = "ios/*.{h,m}"
+  s.source_files  = "ios/**/*.{h,m}"
 end
